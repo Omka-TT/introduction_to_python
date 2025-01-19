@@ -1,0 +1,10 @@
+Мы скачивали Python, PyCharm с сайта Metanit 
+Код который мы писали:
+name = input("What is your name?")
+print("Good")
+name1 = input("How old are you?")
+print("Amazing")
+name2 = input("What is your hobby?")
+print("Perfect")
+name3 = input("Where do you live?")
+print ("His/Her name is",name ,",He/she is old ", name1 ,",he/she is hobby is", name2 , ",He/She lives in", name3)
