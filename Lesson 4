@@ -1,0 +1,15 @@
+Дом. Зад. и Классная Работа (повторение)
+
+krolik = int(input("Количество кроликов: "))
+korova = int(input("Количество коров: "))
+kurica = int(input("Количество куриц: "))
+baran = int(input("Количество баранов: "))
+ovca = int(input("Количество овец: "))
+sobaka = int(input("Количество собак: "))
+kozel = int(input("Количество козлов: "))
+vsego = krolik + korova + kurica + baran + ovca + sobaka + kozel
+print(f"Всего животных на ферме: {vsego}")
+gectar = float(input("Гектаров на одно животное: "))
+cena_odnogo_gectara = 80000
+summa = gectar * cena_odnogo_gectara * vsego
+print(f"Для всех животных потребуется {int(summa):,} сомов")
