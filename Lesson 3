@@ -1,0 +1,19 @@
+То что мы писали на уроке:
+
+a=float(input("Напишите цифру"))
+f=a * 1.8 + 32
+print(f)
+
+num0 = 5
+num1 = float(input("напиши число"))
+num2 = float(input("напиши второе число"))
+
+primer1 = num1 + num2
+primer2 = num1 - num2
+primer3 = num1 * num2
+primer4 = num1 / num2
+
+print("сложение = ", primer1, int(primer1))
+print("вычитание = ", primer2, int(primer2))
+print("умножение= ",  primer3,  int(primer3))
+print("поделение = ", primer4, int(primer4))
